@@ -2,7 +2,7 @@ var amqp = require('amqp');
 
 // Default connection config
 var defaultConfig = {
-    host: '192.168.59.103'
+    host: [boot2docker-ip]
   , port: 5672
   , login: 'guest'
   , password: 'guest'
@@ -16,7 +16,7 @@ var defaultConfig = {
 // Alternatively create a specific vhost / user on RabbitMQ
 var environment = 'bart';
 var customConfig = {
-    host: '192.168.59.103'
+    host: [boot2docker-ip]
   , port: 5672
   , login: environment
   , password: environment
