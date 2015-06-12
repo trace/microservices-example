@@ -1,0 +1,14 @@
+.*
+!/.gitignore
+!.gitkeep
+!/.bowerrc
+node_modules
+tmp
+.idea
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+etc/db/dump
+public/vendor
+*.log
+logs
